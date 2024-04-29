@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   smoothLinks.forEach(function(link) {
     link.addEventListener('mouseenter', function() {
-      gsap.to(link, {duration: 0.5, fontStyle: 'italic', color: '#666'});
+      gsap.to(link, {duration: 2, fontStyle: 'italic', color: '#666'});
     });
 
     link.addEventListener('mouseleave', function() {
-      gsap.to(link, {duration: 0.5, fontStyle: 'normal', color: '#333'});
+      gsap.to(link, {duration: 2, fontStyle: 'normal', color: '#333'});
     });
   });
 });
