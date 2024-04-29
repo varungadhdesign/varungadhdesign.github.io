@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   smoothLinks.forEach(function(link) {
     link.addEventListener('mouseenter', function() {
-      link.classList.add('italic');
+      gsap.to(link, {duration: 0.5, fontStyle: 'italic', color: '#666'});
     });
 
     link.addEventListener('mouseleave', function() {
-      link.classList.remove('italic');
+      gsap.to(link, {duration: 0.5, fontStyle: 'normal', color: '#333'});
     });
   });
 });
