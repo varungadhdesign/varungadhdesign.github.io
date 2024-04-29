@@ -8,7 +8,7 @@
 .smooth-link {
   text-decoration: none;
   color: #333; /* Standard color */
-  transition: color 0.3s, font-style 0.3s; /* Transition for color and font-style */
+  transition: color 0.5s ease, font-style 0.5s ease; /* Slower and smoother transition */
 }
 
 .smooth-link:hover {
