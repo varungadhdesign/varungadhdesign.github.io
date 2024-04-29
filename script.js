@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     link.addEventListener('mouseleave', function() {
-        gsap.to(target, {duration: 2.5, fontStyle: 'normal', ease: "power3.in", y: 0, color: '#333'});
+        gsap.to(target, {duration: 2.5, fontStyle: 'normal', ease: "power3.in", y: -250, color: 'blue'});
     });
   });
 });
