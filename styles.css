@@ -8,10 +8,9 @@
 .smooth-link {
   text-decoration: none;
   color: #333; /* Standard color */
-  transition: color 2s ease, font-style 2s ease; /* Slower and smoother transition */
+  font-style: normal; /* Start with normal font style */
 }
 
-.smooth-link:hover {
-  color: #666; /* Color change on hover */
-  font-style: italic; /* Italics on hover */
+.italic {
+  font-style: italic; /* Italics font style */
 }
